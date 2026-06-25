@@ -34,10 +34,4 @@ export default class Category extends Model<Category> {
     allowNull: true,
   })
   declare description: string;
-
-  @Column({
-    type: DataType.STRING(40),
-    allowNull: true,
-  })
-  declare color: string;
 }

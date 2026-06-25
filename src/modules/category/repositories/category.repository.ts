@@ -6,7 +6,7 @@ import randomNumericId from '../../../../utils/random-numeric-id.util';
 export default class CategoryRepository extends AbstractRepository<Category> {
   constructor() {
     super(Category, {
-      idGenerator: () => randomNumericId('RC', 16),
+      idGenerator: () => randomNumericId('C', 16),
       logger: new Logger(CategoryRepository.name),
       singleName: 'la categoría',
       pluralName: 'las categorías',
