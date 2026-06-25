@@ -1,0 +1,7 @@
+export enum StatusEnum {
+  ACTIVE = 'ACTIVE',
+  INACTIVE = 'INACTIVE',
+  PENDING = 'PENDING',
+  SUSPENDED = 'SUSPENDED',
+  UNSUSPENDED = 'UNSUSPENDED',
+}
