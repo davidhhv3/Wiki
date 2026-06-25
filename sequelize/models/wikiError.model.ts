@@ -106,7 +106,7 @@ export default class WikiError extends Model<WikiError> {
   declare escalation: EscalationTeam;
 
   @Column({
-    type: DataType.ARRAY(DataType.STRING(255)),
+    type: DataType.ARRAY(DataType.TEXT),
     allowNull: true,
     defaultValue: [],
     field: 'related_docs',
